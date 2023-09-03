@@ -2,7 +2,6 @@ from orm import init_django_orm  # noqa
 
 import os
 import csv
-from db.models import Alarm
 from db.get_alarms import get_alarms
 
 alarms = get_alarms()

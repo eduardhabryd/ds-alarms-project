@@ -15,6 +15,7 @@ def cli_should_renew_info() -> None:
 def check_for_plots() -> None:
     plots = [
         os.path.exists("hours_alarms.png"),
+        os.path.exists("oblasts_alarms.png"),
     ]
     if all(plots):
         print(
