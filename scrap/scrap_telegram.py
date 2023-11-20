@@ -29,11 +29,13 @@ try:
     }
 except Exception:
     raise Exception(
-        "There is no Telegram API ID or API HASH. Please add them to scrap/.env file"
+        "There is no Telegram API ID or API HASH. "
+        "Please add them to scrap/.env file"
         "using the following format: \n"
         "TG_API_ID='your_api_id'"
         "TG_API_HASH='your_api_hash'"
-        "\nYou can get your API ID and API hash by creating a Telegram application "
+        "\nYou can get your API ID and API hash "
+        "by creating a Telegram application "
         "on the Telegram Developer: "
         "https://my.telegram.org/auth?to=apps website"
     )

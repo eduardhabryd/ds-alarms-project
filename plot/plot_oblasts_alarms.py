@@ -1,7 +1,6 @@
 import os.path
 import pandas as pd
 import matplotlib.pyplot as plt
-import numpy as np
 
 from my_csv.get_csv_oblasts_alarms import get_oblasts_alarms_csv
 
