@@ -8,7 +8,7 @@ from my_csv.get_csv_hours_alarms import get_hours_alarms_csv
 
 root_dir = os.path.dirname(os.path.dirname(__file__))
 csv_path = os.path.join(root_dir, "my_csv", "hours_alarms.csv")
-plot_path = os.path.join(root_dir, "hours_alarms.png")
+plot_path = os.path.join(root_dir, "images/hours_alarms.png")
 
 
 def plot():

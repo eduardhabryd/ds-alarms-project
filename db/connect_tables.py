@@ -3,7 +3,6 @@ from db.models import Alarm, AlarmEnd
 
 
 def connect_tables():
-
     counter = 1
 
     print("Connecting Alarm DB to AlarmEnd DB via OneToOneField...")
