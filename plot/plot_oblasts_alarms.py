@@ -7,7 +7,7 @@ from my_csv.get_csv_oblasts_alarms import get_oblasts_alarms_csv
 
 root_dir = os.path.dirname(os.path.dirname(__file__))
 csv_path = os.path.join(root_dir, "my_csv", "oblasts_alarms.csv")
-plot_path = os.path.join(root_dir, "oblasts_alarms.png")
+plot_path = os.path.join(root_dir, "images/oblasts_alarms.png")
 
 
 def plot():
