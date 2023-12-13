@@ -35,3 +35,4 @@ Telegram channel.
 ## 📊 Sample Results
 ![hours_alarms](./images/hours_alarms.png)
 ![oblasts_alarms](./images/oblasts_alarms.png)
+![avg_kiro_alarms](./images/alarms_avg_duration.png)
